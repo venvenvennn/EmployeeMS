@@ -1,0 +1,71 @@
+.loginPage{
+    background: url();
+    background-image: linear-gradient(to right, green , yellow);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+.loginForm{
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    color: #fff;
+}
+
+.employee_images{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.emp_det_image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in;
+}
+.emp_det_image:hover{
+    cursor: pointer;
+    transform: scale(1.1)
+}
+.employee-card{
+    padding: 30px 40px;
+    width: 750px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.btn-admin{
+    width: 95px;
+}
+.loginPage2{
+    background-image: linear-gradient(to right, green , yellow);
+    background-size: 100% 120%;
+}
+.loginForm2{
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    padding: 20px;
+}
+.admin-home{
+    background-color: yellow;
+}
+.employee-home{
+    background-color: turquoise;
+}
+.salary-home{
+    background-color: plum;
+}
+@media screen and (max-width: 765px) {
+    .employee-card{
+        width: 500px;
+        flex-direction: column;
+    }
+    .employee-deets{
+        margin: 15px 0;
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+    }
+}
